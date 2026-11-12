@@ -120,7 +120,7 @@ flowchart TD
 - **Quién cuenta en los porcentajes de estudios:** solo quien declaró formación (12,898 personas, 69.8 %). Quien no la declaró aparece como «Sin currículum» en el sueldo por nivel.
 - **Umbrales:**
   - Sueldo por universidad: instituciones con **al menos 30 personas** con licenciatura declarada (48 instituciones). La mediana dentro del rango 5 y la del rango 4 se calculan en cada una y la tabla marca en cursiva las que tienen menos de 10 personas en ese rango.
-  - Universidades por jerarquía (treemap): en cada rango, instituciones con **al menos 5 personas** (**2** en los rangos 1 y 2); el resto se junta en «Otras instituciones», de modo que la suma de cada rango es el total con licenciatura declarada.
+  - Universidades por jerarquía (treemap): en la **alta dirección (rango 1)** se listan **todas** las instituciones, aunque sea una sola persona; en el rango 2, las que tienen **al menos 2 personas**; en los rangos 3 a 5, **al menos 5**. En los rangos 2 a 5 el resto se junta en «Otras instituciones», de modo que la suma de cada rango es el total con licenciatura declarada. En ningún rango se publica la mediana de sueldo de una institución con **menos de 3 personas**: con una o dos personas esa cifra sería el sueldo de alguien identificable, así que la tabla de datos trae `null` y el tooltip dice «Sueldo no mostrado (menos de 3 personas)».
   - Sueldo por nivel de estudios dentro de cada jerarquía: combinaciones con **al menos 10 personas**.
   - Instituciones más frecuentes: las 30 con más egresados en el análisis; el sitio muestra las 15 primeras.
 
@@ -175,7 +175,7 @@ Todas las cifras salen de los JSON de `data/`.
 
 ## Qué no se publica y por qué
 
-Aquí solo hay agregados: conteos y medianas por institución, nivel, campo y jerarquía. **No se publica** ningún nombre, número de empleado, ficha individual ni tabla con una fila por persona, aunque el directorio de origen sea público. Una cosa es que cada ficha esté disponible para consulta y otra es reunir en un archivo descargable a 18,481 personas con su sueldo y sus estudios; el análisis busca describir la composición del personal, no señalar a nadie. Por la misma razón los treemaps y tablas agrupan las instituciones con pocas personas en «Otras instituciones».
+Aquí solo hay agregados: conteos y medianas por institución, nivel, campo y jerarquía. **No se publica** ningún nombre, número de empleado, ficha individual ni tabla con una fila por persona, aunque el directorio de origen sea público. Una cosa es que cada ficha esté disponible para consulta y otra es reunir en un archivo descargable a 18,481 personas con su sueldo y sus estudios; el análisis busca describir la composición del personal, no señalar a nadie. Por la misma razón las tablas y el treemap de los rangos 2 a 5 agrupan las instituciones con pocas personas en «Otras instituciones», y ninguna mediana de sueldo se publica con menos de 3 personas. La excepción es la alta dirección, donde el treemap desagrega todas las instituciones: ahí solo se publica cuántas personas estudiaron en cada una (y el sueldo únicamente cuando son 3 o más), nunca el sueldo de una persona.
 
 ## Estructura del repositorio
 
