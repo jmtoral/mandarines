@@ -124,6 +124,8 @@ flowchart TD
   - Sueldo por nivel de estudios dentro de cada jerarquía: combinaciones con **al menos 10 personas**.
   - Instituciones más frecuentes: las 30 con más egresados en el análisis; el sitio muestra las 15 primeras.
 
+  - Puntos de la gráfica de sueldo por nivel de estudios: `salario_puntos.json` tiene una fila por cada **sueldo distinto** dentro de cada nivel máximo de estudios, con el número de personas que lo cobran (821 filas; 18,476 personas con sueldo legible). Cada círculo es una de esas filas y su área es proporcional a las personas. La escala horizontal es logarítmica. No lleva nombre, jerarquía ni institución, pero los valores que cobra una sola persona sí aparecen: es lo que permite ver los extremos.
+
 ## Qué alimenta cada sección del sitio
 
 ```mermaid
@@ -136,11 +138,12 @@ flowchart LR
     UR["universidad_rango.json"] --> S3["Universidades por jerarquía"]
     CA["campos.json"] --> S4["Campos profesionales"]
     SN["salario_nivel.json"] --> S5["Sueldo por nivel de estudios"]
+    SP["salario_puntos.json"] --> S5
     SR["salario_nivel_rango.json"] --> S6["Sueldo por estudios y jerarquía"]
     SU["salario_universidad.json"] --> S7["Sueldo por universidad"]
 ```
 
-Los 10 JSON agregados están en [`data/`](data/) para descargarlos. Cada uno es un arreglo de filas.
+Los 11 JSON agregados están en [`data/`](data/) para descargarlos. Cada uno es un arreglo de filas.
 
 ## Hallazgos principales
 
@@ -181,7 +184,7 @@ Aquí solo hay agregados: conteos y medianas por institución, nivel, campo y je
 
 ```
 index.html      página autónoma (d3 7.9.0 desde cdnjs, datos incrustados)
-data/*.json     los 10 JSON agregados
+data/*.json     los 11 JSON agregados
 .nojekyll
 README.md       este archivo
 ```
