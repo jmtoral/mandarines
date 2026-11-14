@@ -1,20 +1,8 @@
 [
  {
-  "nombre": "Anahi Silva Tosca",
-  "cargo": "DIRECTORA EJECUTIVA DE ASUNTOS JURIDICOS",
-  "area": "DIRECCIÓN EJECUTIVA DE ASUNTOS JURÍDICOS",
-  "sueldo": 238480
- },
- {
   "nombre": "Sergio Uzeta Murcio",
   "cargo": "COORDINADOR NACIONAL DE COMUNICACION SOCIAL",
   "area": "COORDINACION NACIONAL DE COMUNICACION SOCIAL",
-  "sueldo": 193043
- },
- {
-  "nombre": "Rebeca Fernanda Lopez Aguirre",
-  "cargo": "DIRECTORA DE LA UNIDAD TECNICA DE TRANSPARENCIA Y PROTECCION DE DATOS PERSONALES",
-  "area": "UNIDAD TECNICA DE TRANSPARENCIA Y PROTECCION DE DATOS PERSONALES",
   "sueldo": 193043
  },
  {

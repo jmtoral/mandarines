@@ -4,7 +4,7 @@ Análisis agregado del personal del Instituto Nacional Electoral a partir de su 
 
 Sitio: <https://jmtoral.github.io/mandarines/>
 
-Este repositorio publica **cifras agregadas** (conteos y medianas), sin fichas individuales. Dos excepciones, con nombres: `mas_que_presidenta.json` (nombre, puesto, sueldo bruto y si su currículum es público, de las 26 personas que ganan más que la presidenta de la República, $193,706 brutos al mes) y `sin_cv_100k.json` (nombre, puesto, área y sueldo de las 98 personas sin currículum público que ganan más de $100,000 brutos al mes; aparecen al pasar el cursor por esos puntos de la gráfica de sueldo por nivel y en una tabla al final).
+Este repositorio publica **cifras agregadas** (conteos y medianas), sin fichas individuales. Dos excepciones, con nombres: `mas_que_presidenta.json` (nombre, puesto, sueldo bruto y si su currículum es público, de las 26 personas que ganan más que la presidenta de la República, $193,706 brutos al mes) y `sin_cv_100k.json` (nombre, puesto, área y sueldo de las 96 personas sin currículum público que ganan más de $100,000 brutos al mes; aparecen al pasar el cursor por esos puntos de la gráfica de sueldo por nivel y en una tabla al final).
 
 ## Contenido
 
@@ -87,15 +87,17 @@ El código tiene una prueba (`python ine_directorio.py --selftest`) con 19 cargo
 
 ## Estudios: nivel máximo, institución, tipo y campo
 
-Todo está en `analisis/analizar.py`. Se parte de la tabla de formación (19,115 filas, 12,898 personas con al menos una).
+Todo está en `analisis/analizar.py`. Se parte de la tabla de formación (19,123 filas, 12,900 personas con al menos una).
+
+**Semblanzas de ine.mx.** `data/semblanzas_ine.csv` (local) es formación leída a mano de la página ine.mx, solo para quien no la registró en el directorio. `analizar.py` la integra como filas de formación con documento «Semblanza ine.mx», que no cuenta como acreditación. Aplica a 2 titulares de área: la Dirección Ejecutiva de Asuntos Jurídicos y la Unidad Técnica de Transparencia. Se buscó a los 41 mandos (rangos 1 y 2) sin formación en el directorio y solo esas 2 personas tenían semblanza.
 
 **Nivel máximo de estudios.** Los niveles declarados se ordenan: secundaria, bachillerato, técnico superior, licenciatura, especialidad, maestría y doctorado. El nivel máximo de una persona es el más alto que aparece en alguna fila, **lo haya concluido o no**. Además se marca si ese nivel está *acreditado*: cuenta como acreditación una cédula profesional, título, acta de grado o acta de examen; un certificado de estudios solo en secundaria y bachillerato; un diploma solo en especialidad. Una carta de pasante, constancia, boleta o historial no acreditan. El sitio no usa esa marca para filtrar.
 
-**Institución de licenciatura.** El nombre viene en texto libre, así que se unifica: se normaliza el texto, se quitan sufijos como «A. C.», se recorta lo que sigue a «campus», «unidad», «plantel», «facultad», etc. en nombres largos que empiezan con «universidad» o «instituto», y una lista de reglas manuales agrupa los casos conocidos (por ejemplo, las facultades de la UNAM y el Tec de Monterrey). Los demás nombres se agrupan por texto normalizado y toman el nombre más frecuente. Quedan 1,426 instituciones distintas entre las 9,394 personas con institución de licenciatura declarada. Si una persona tiene varias filas de licenciatura se toma, con preferencia, una acreditada y, a igualdad, la más antigua.
+**Institución de licenciatura.** El nombre viene en texto libre, así que se unifica: se normaliza el texto, se quitan sufijos como «A. C.», se recorta lo que sigue a «campus», «unidad», «plantel», «facultad», etc. en nombres largos que empiezan con «universidad» o «instituto», y una lista de reglas manuales agrupa los casos conocidos (por ejemplo, las facultades de la UNAM y el Tec de Monterrey). Los demás nombres se agrupan por texto normalizado y toman el nombre más frecuente. Quedan 1,426 instituciones distintas entre las 9,396 personas con institución de licenciatura declarada. Si una persona tiene varias filas de licenciatura se toma, con preferencia, una acreditada y, a igualdad, la más antigua.
 
 **Pública o privada.** No hay una fuente externa: es una lista de reglas sobre el nombre. Primero se prueban patrones de privadas (porque «autónoma» engaña: hay privadas con ese nombre), después de públicas, y lo que no encaja queda como «Sin clasificar». La clasificación cubre **85.4 %** de las instituciones declaradas (objetivo fijado: 85 %); **14.6 %** (1,375 personas) quedó sin clasificar.
 
-**Campo profesional.** Se toma la carrera de la licenciatura, o la del técnico superior si no hay licenciatura, y se asigna el primer campo cuyo patrón de palabras clave coincida (derecho, informática y sistemas, administración, contaduría, etc.; 21 categorías incluidas «Otros» y «Sin clasificar»). Se prefiere la licenciatura sobre el técnico superior, una carrera que se pueda clasificar, una acreditada, y la más antigua. Se clasificó el **98.7 %** de las 9,755 personas con licenciatura o técnico superior (objetivo fijado: 92 %).
+**Campo profesional.** Se toma la carrera de la licenciatura, o la del técnico superior si no hay licenciatura, y se asigna el primer campo cuyo patrón de palabras clave coincida (derecho, informática y sistemas, administración, contaduría, etc.; 21 categorías incluidas «Otros» y «Sin clasificar»). Se prefiere la licenciatura sobre el técnico superior, una carrera que se pueda clasificar, una acreditada, y la más antigua. Se clasificó el **98.7 %** de las 9,757 personas con licenciatura o técnico superior (objetivo fijado: 92 %).
 
 ```mermaid
 flowchart TD
@@ -117,7 +119,7 @@ flowchart TD
 
 - **Sueldo:** la percepción **bruta mensual** del puesto (la fila «Total percepciones» de la ficha). No se usa el neto. Cinco personas no tienen sueldo legible y quedan fuera de las medianas.
 - **Estadísticos:** siempre **mediana** y cuartiles (p25 y p75). La media se distorsiona con los puestos altos. Los sueldos están en tabuladores, así que las medianas se repiten con frecuencia.
-- **Quién cuenta en los porcentajes de estudios:** solo quien declaró formación (12,898 personas, 69.8 %). Quien no la declaró aparece como «Sin currículum» en el sueldo por nivel.
+- **Quién cuenta en los porcentajes de estudios:** solo quien declaró formación (12,900 personas, 69.8 %). Quien no la declaró aparece como «Sin currículum» en el sueldo por nivel.
 - **Umbrales:**
   - Sueldo por universidad: instituciones con **al menos 30 personas** con licenciatura declarada (48 instituciones). La mediana dentro del rango 5 y la del rango 4 se calculan en cada una y la tabla marca en cursiva las que tienen menos de 10 personas en ese rango.
   - Universidades por jerarquía (treemap): en la **alta dirección (rango 1)** se listan **todas** las instituciones, aunque sea una sola persona; en el rango 2, las que tienen **al menos 2 personas**; en los rangos 3 a 5, **al menos 5**. En los rangos 2 a 5 el resto se junta en «Otras instituciones», de modo que la suma de cada rango es el total con licenciatura declarada. En ningún rango se publica la mediana de sueldo de una institución con **menos de 3 personas**: con una o dos personas esa cifra sería el sueldo de alguien identificable, así que la tabla de datos trae `null` y el tooltip dice «Sueldo no mostrado (menos de 3 personas)».
@@ -184,7 +186,7 @@ Los 12 JSON agregados están en [`data/`](data/) para descargarlos. Cada uno es 
 
 Todas las cifras salen de los JSON de `data/`.
 
-**Quién declaró estudios.** De 18,481 personas, 12,898 (69.8 %) declararon formación. Entre ellas, 74.4 % tiene licenciatura o más y 15.2 % un posgrado. La cobertura es muy desigual: 92 % en alta dirección, 75.3 % en direcciones, 94.6 % y 95.2 % en subdirecciones y jefaturas, pero solo 64.7 % en el personal operativo.
+**Quién declaró estudios.** De 18,481 personas, 12,900 (69.8 %) declararon formación. Entre ellas, 74.4 % tiene licenciatura o más y 15.2 % un posgrado. La cobertura es muy desigual: 92 % en alta dirección, 75.3 % en direcciones, 94.6 % y 95.2 % en subdirecciones y jefaturas, pero solo 64.7 % en el personal operativo.
 
 **Más puesto, más estudios.** En alta dirección, 56.5 % de quienes declararon tiene maestría y 17.4 % doctorado; en el personal operativo, la licenciatura es el nivel máximo más común (58.4 %) y el bachillerato pesa mucho más que en los demás niveles (28.7 %).
 

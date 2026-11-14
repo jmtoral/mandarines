@@ -4,181 +4,207 @@
   "puesto": "CONSEJERA PRESIDENTA (PROVISIONAL)",
   "sueldo_bruto": 262634,
   "diferencia": 68928,
-  "cv_publico": true
+  "cv_publico": true,
+  "cv_fuente": "directorio"
  },
  {
   "nombre": "Arturo Castillo Loza",
   "puesto": "CONSEJERO ELECTORAL",
   "sueldo_bruto": 262634,
   "diferencia": 68928,
-  "cv_publico": true
+  "cv_publico": true,
+  "cv_fuente": "directorio"
  },
  {
   "nombre": "Arturo Manuel Chavez Lopez",
   "puesto": "CONSEJERO ELECTORAL",
   "sueldo_bruto": 262634,
   "diferencia": 68928,
-  "cv_publico": true
+  "cv_publico": true,
+  "cv_fuente": "directorio"
  },
  {
   "nombre": "Carla Astrid Humphrey Jordan",
   "puesto": "CONSEJERA ELECTORAL",
   "sueldo_bruto": 262634,
   "diferencia": 68928,
-  "cv_publico": true
+  "cv_publico": true,
+  "cv_fuente": "directorio"
  },
  {
   "nombre": "Frida Denisse Gomez Puga",
   "puesto": "CONSEJERA ELECTORAL",
   "sueldo_bruto": 262634,
   "diferencia": 68928,
-  "cv_publico": true
+  "cv_publico": true,
+  "cv_fuente": "directorio"
  },
  {
   "nombre": "Jorge Montaño Ventura",
   "puesto": "CONSEJERO ELECTORAL",
   "sueldo_bruto": 262634,
   "diferencia": 68928,
-  "cv_publico": true
+  "cv_publico": true,
+  "cv_fuente": "directorio"
  },
  {
   "nombre": "Jose Martin Fernando Faz Mora",
   "puesto": "CONSEJERO ELECTORAL",
   "sueldo_bruto": 262634,
   "diferencia": 68928,
-  "cv_publico": true
+  "cv_publico": true,
+  "cv_fuente": "directorio"
  },
  {
   "nombre": "Norma Irene de la Cruz Magaña",
   "puesto": "CONSEJERA ELECTORAL",
   "sueldo_bruto": 262634,
   "diferencia": 68928,
-  "cv_publico": true
+  "cv_publico": true,
+  "cv_fuente": "directorio"
  },
  {
   "nombre": "Rita Bell Lopez Vences",
   "puesto": "CONSEJERA ELECTORAL",
   "sueldo_bruto": 262634,
   "diferencia": 68928,
-  "cv_publico": true
+  "cv_publico": true,
+  "cv_fuente": "directorio"
  },
  {
   "nombre": "Uuc-Kib Espadas Ancona",
   "puesto": "CONSEJERO ELECTORAL",
   "sueldo_bruto": 262634,
   "diferencia": 68928,
-  "cv_publico": true
+  "cv_publico": true,
+  "cv_fuente": "directorio"
  },
  {
   "nombre": "Roberto Carlos Felix Lopez",
   "puesto": "SECRETARIO EJECUTIVO",
   "sueldo_bruto": 246292,
   "diferencia": 52586,
-  "cv_publico": true
+  "cv_publico": true,
+  "cv_fuente": "directorio"
  },
  {
   "nombre": "Victor Hugo Carvente Contreras",
   "puesto": "TITULAR DEL ORGANO INTERNO DE CONTROL",
   "sueldo_bruto": 241796,
   "diferencia": 48090,
-  "cv_publico": true
+  "cv_publico": true,
+  "cv_fuente": "directorio"
  },
  {
   "nombre": "Alejandro Romero Millan",
   "puesto": "DIRECTOR EJECUTIVO DE PRERROGATIVAS Y PARTIDOS POLITICOS",
   "sueldo_bruto": 238480,
   "diferencia": 44774,
-  "cv_publico": true
+  "cv_publico": true,
+  "cv_fuente": "directorio"
  },
  {
   "nombre": "Alejandro Sosa Duran",
   "puesto": "DIRECTOR EJECUTIVO DEL REGISTRO FEDERAL DE ELECTORES",
   "sueldo_bruto": 238480,
   "diferencia": 44774,
-  "cv_publico": true
+  "cv_publico": true,
+  "cv_fuente": "directorio"
  },
  {
   "nombre": "Anahi Silva Tosca",
   "puesto": "DIRECTORA EJECUTIVA DE ASUNTOS JURIDICOS",
   "sueldo_bruto": 238480,
   "diferencia": 44774,
-  "cv_publico": false
+  "cv_publico": true,
+  "cv_fuente": "semblanza ine.mx"
  },
  {
   "nombre": "Eduardo Hugo Ramirez Salazar",
   "puesto": "DIRECTOR EJECUTIVA DE CAPACITACION ELECTORAL Y EDUCACION CIVICA",
   "sueldo_bruto": 238480,
   "diferencia": 44774,
-  "cv_publico": true
+  "cv_publico": true,
+  "cv_fuente": "directorio"
  },
  {
   "nombre": "Guadalupe Yessica Alarcon Gongora",
   "puesto": "DIRECTORA DE LA UNIDAD TECNICA DE LO CONTENCIOSO ELECTORAL",
   "sueldo_bruto": 238480,
   "diferencia": 44774,
-  "cv_publico": true
+  "cv_publico": true,
+  "cv_fuente": "directorio"
  },
  {
   "nombre": "Jorge Egren Moreno Troncoso",
   "puesto": "DIRECTOR EJECUTIVO DEL SERVICIO PROFESIONAL ELECTORAL NACIONAL",
   "sueldo_bruto": 238480,
   "diferencia": 44774,
-  "cv_publico": true
+  "cv_publico": true,
+  "cv_fuente": "directorio"
  },
  {
   "nombre": "Liliana Diaz de Leon Zapata",
   "puesto": "DIRECTORA EJECUTIVA DE ADMINISTRACION",
   "sueldo_bruto": 238480,
   "diferencia": 44774,
-  "cv_publico": true
+  "cv_publico": true,
+  "cv_fuente": "directorio"
  },
  {
   "nombre": "Maria Fernanda Romo Gaxiola",
   "puesto": "DIRECTORA DE UNIDAD TECNICA DE VINCULACION CON LOS ORGANISMOS PUBLICOS LOCALES",
   "sueldo_bruto": 238480,
   "diferencia": 44774,
-  "cv_publico": true
+  "cv_publico": true,
+  "cv_fuente": "directorio"
  },
  {
   "nombre": "Maria del Carmen Colin Martinez",
   "puesto": "DIRECTORA EJECUTIVA DE ORGANIZACION ELECTORAL (ENCARGADA)",
   "sueldo_bruto": 238480,
   "diferencia": 44774,
-  "cv_publico": true
+  "cv_publico": true,
+  "cv_fuente": "directorio"
  },
  {
   "nombre": "Mario Alberto Alejo Garcia",
   "puesto": "DIRECTOR GENERAL DE LA UNIDAD TECNICA DE FISCALIZACION",
   "sueldo_bruto": 238480,
   "diferencia": 44774,
-  "cv_publico": true
+  "cv_publico": true,
+  "cv_fuente": "directorio"
  },
  {
   "nombre": "Carlos Daniel Luna Rosas",
   "puesto": "JEFE DE OFICINA DE LA PRESIDENCIA DEL CONSEJO",
   "sueldo_bruto": 220395,
   "diferencia": 26689,
-  "cv_publico": true
+  "cv_publico": true,
+  "cv_fuente": "directorio"
  },
  {
   "nombre": "Eduardo Lopez Jasso",
   "puesto": "TITULAR DE LA UNIDAD DE EVALUACION, NORMATIVIDAD Y DESARROLLO ADMINISTRATIVO DEL OIC",
   "sueldo_bruto": 206713,
   "diferencia": 13007,
-  "cv_publico": true
+  "cv_publico": true,
+  "cv_fuente": "directorio"
  },
  {
   "nombre": "Lillian Morales Patiño",
   "puesto": "TITULAR DE LA UNIDAD DE ASUNTOS JURIDICOS DEL OIC",
   "sueldo_bruto": 206713,
   "diferencia": 13007,
-  "cv_publico": true
+  "cv_publico": true,
+  "cv_fuente": "directorio"
  },
  {
   "nombre": "Martin Pedro Cruz Ortiz",
   "puesto": "TITULAR DE LA UNIDAD DE AUDITORIA DEL OIC",
   "sueldo_bruto": 206713,
   "diferencia": 13007,
-  "cv_publico": true
+  "cv_publico": true,
+  "cv_fuente": "directorio"
  }
 ]
