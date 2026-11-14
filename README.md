@@ -4,7 +4,7 @@ Análisis agregado del personal del Instituto Nacional Electoral a partir de su 
 
 Sitio: <https://jmtoral.github.io/mandarines/>
 
-Este repositorio publica **cifras agregadas** (conteos y medianas), sin fichas individuales. Única excepción: `mas_que_presidenta.json`, con nombre, puesto y sueldo bruto de las 26 personas que ganan más que la presidenta de la República ($193,706 brutos al mes).
+Este repositorio publica **cifras agregadas** (conteos y medianas), sin fichas individuales. Dos excepciones, con nombres: `mas_que_presidenta.json` (nombre, puesto, sueldo bruto y si su currículum es público, de las 26 personas que ganan más que la presidenta de la República, $193,706 brutos al mes) y `sin_cv_100k.json` (nombre, puesto, área y sueldo de las 98 personas sin currículum público que ganan más de $100,000 brutos al mes; aparecen al pasar el cursor por esos puntos de la gráfica de sueldo por nivel y en una tabla al final).
 
 ## Contenido
 

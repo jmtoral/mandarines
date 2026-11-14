@@ -1,0 +1,590 @@
+[
+ {
+  "nombre": "Anahi Silva Tosca",
+  "cargo": "DIRECTORA EJECUTIVA DE ASUNTOS JURIDICOS",
+  "area": "DIRECCIÓN EJECUTIVA DE ASUNTOS JURÍDICOS",
+  "sueldo": 238480
+ },
+ {
+  "nombre": "Sergio Uzeta Murcio",
+  "cargo": "COORDINADOR NACIONAL DE COMUNICACION SOCIAL",
+  "area": "COORDINACION NACIONAL DE COMUNICACION SOCIAL",
+  "sueldo": 193043
+ },
+ {
+  "nombre": "Rebeca Fernanda Lopez Aguirre",
+  "cargo": "DIRECTORA DE LA UNIDAD TECNICA DE TRANSPARENCIA Y PROTECCION DE DATOS PERSONALES",
+  "area": "UNIDAD TECNICA DE TRANSPARENCIA Y PROTECCION DE DATOS PERSONALES",
+  "sueldo": 193043
+ },
+ {
+  "nombre": "Cp Jose Luis Hernandez Villarruel",
+  "cargo": "ASESOR DE CONSEJERA ELECTORAL",
+  "area": "UNIDAD TECNICA DE FISCALIZACION",
+  "sueldo": 172781
+ },
+ {
+  "nombre": "Javier Martinez Intriago",
+  "cargo": "DIRECTOR DE INFRAESTRUCTURA Y TECNOLOGIA APLICADA",
+  "area": "DIRECCION EJECUTIVA DEL REGISTRO FEDERAL DE ELECTORES",
+  "sueldo": 172781
+ },
+ {
+  "nombre": "Alejandro Marcel Galvan Salinas",
+  "cargo": "DIRECTOR DE OPERACIONES",
+  "area": "UNIDAD TECNICA DE SERVICIOS DE INFORMATICA",
+  "sueldo": 172781
+ },
+ {
+  "nombre": "Rigoberto Gomez Custodio",
+  "cargo": "DIRECTOR DE PROGRAMACION NACIONAL",
+  "area": "UNIDAD TECNICA DE FISCALIZACION",
+  "sueldo": 172781
+ },
+ {
+  "nombre": "Luis Francisco Cardenas Sarre",
+  "cargo": "DIRECTOR DE PROYECTOS E INNOVACION TECNOLOGICA",
+  "area": "UNIDAD TECNICA DE SERVICIOS DE INFORMATICA",
+  "sueldo": 172781
+ },
+ {
+  "nombre": "Saul Flores Reyes",
+  "cargo": "DIRECTORA/DIRECTOR DE AUDITORIA C",
+  "area": "ORGANO INTERNO DE CONTROL",
+  "sueldo": 172781
+ },
+ {
+  "nombre": "Francisco Javier Corona Bueno",
+  "cargo": "SECRETARIO PARTICULAR DEL SECRETARIO EJECUTIVO (ENCARGADO)",
+  "area": "SECRETARIA EJECUTIVA",
+  "sueldo": 152620
+ },
+ {
+  "nombre": "Adolfo Pascual Sanchez Carrillo",
+  "cargo": "ASESOR DE CONSEJERO ELECTORAL",
+  "area": "CONSEJERO ELECTORAL",
+  "sueldo": 148727
+ },
+ {
+  "nombre": "Juan Gerardo Reyes Villaseca",
+  "cargo": "DIRECTOR DE INFORMACION",
+  "area": "COORDINACION NACIONAL DE COMUNICACION SOCIAL",
+  "sueldo": 140957
+ },
+ {
+  "nombre": "Laura Fabiola Bringas Sanchez",
+  "cargo": "LÍDER/ESA ESPECIALIZADO EN GESTIÓN ESTRATÉGICA Y DE PROCESOS",
+  "area": "SECRETARIA EJECUTIVA",
+  "sueldo": 140608
+ },
+ {
+  "nombre": "Luis Fernando Montijo Morales",
+  "cargo": "DIRECTOR DE ACCESO A LA INFORMACION Y PROTECCION DE DATOS PERSONALES",
+  "area": "UNIDAD TECNICA DE TRANSPARENCIA Y PROTECCION DE DATOS PERSONALES",
+  "sueldo": 140521
+ },
+ {
+  "nombre": "Luis Gerardo Alvarez Tostado Valdivia",
+  "cargo": "DIRECTORA/DIRECTOR DE VERIFICACION, POLITICAS DE TRANSPARENCIA Y CAPACITACION",
+  "area": "ORGANO INTERNO DE CONTROL",
+  "sueldo": 140521
+ },
+ {
+  "nombre": "Juan Ulises Hernandez Castro",
+  "cargo": "ASESOR/A DE PRESIDENCIA DEL CONSEJO A",
+  "area": "PRESIDENCIA DEL CONSEJO",
+  "sueldo": 139843
+ },
+ {
+  "nombre": "Ricardo Gomez Piña",
+  "cargo": "ASESOR/A DE PRESIDENCIA DEL CONSEJO A",
+  "area": "PRESIDENCIA DEL CONSEJO",
+  "sueldo": 139843
+ },
+ {
+  "nombre": "Oscar Becerra Trejo",
+  "cargo": "ASESOR DE CONSEJERO ELECTORAL",
+  "area": "CONSEJERO ELECTORAL",
+  "sueldo": 138401
+ },
+ {
+  "nombre": "Anahi Benitez Sanchez",
+  "cargo": "ASESORA/A DE PRESIDENCIA DEL CONSEJO B",
+  "area": "PRESIDENCIA DEL CONSEJO",
+  "sueldo": 138401
+ },
+ {
+  "nombre": "Norma Angelica Sandoval Sanchez",
+  "cargo": "ASESORA/A DE PRESIDENCIA DEL CONSEJO B",
+  "area": "PRESIDENCIA DEL CONSEJO",
+  "sueldo": 138401
+ },
+ {
+  "nombre": "Andrea Imaz Escutia",
+  "cargo": "ASESORA DE CONSEJERO ELECTORAL",
+  "area": "CONSEJERO ELECTORAL",
+  "sueldo": 138211
+ },
+ {
+  "nombre": "Maribel Martinez Ramirez",
+  "cargo": "LÍDER/ESA ESPECIALIZADO/A EN NORMATIVIDAD",
+  "area": "SECRETARIA EJECUTIVA",
+  "sueldo": 136668
+ },
+ {
+  "nombre": "Ayrton Rodrigo Cortes Gomez",
+  "cargo": "ASESOR (A) DE LA SECRETARIO EJECUTIVA B",
+  "area": "SECRETARIA EJECUTIVA",
+  "sueldo": 132648
+ },
+ {
+  "nombre": "Martha Alicia Pozos Morales",
+  "cargo": "ASESORA (A) DE LA SECRETARIA EJECUTIVA B",
+  "area": "SECRETARIA EJECUTIVA",
+  "sueldo": 132648
+ },
+ {
+  "nombre": "Juan Jesus Galicia Bravo",
+  "cargo": "ASESOR/A DE PRESIDENCIA DEL CONSEJO C",
+  "area": "PRESIDENCIA DEL CONSEJO",
+  "sueldo": 129376
+ },
+ {
+  "nombre": "Beatriz Adriana Jasso Hernandez",
+  "cargo": "LIDER DE PROYECTO JURIDICO ADMINISTRATIVO (DJ)",
+  "area": "DIRECCIÓN EJECUTIVA DE ASUNTOS JURÍDICOS",
+  "sueldo": 129376
+ },
+ {
+  "nombre": "Carlos Manuel Revuelta Guillen",
+  "cargo": "LÍDER DE PROYECTO DE ANÁLISIS Y SEGUIMIENTO DE CASOS RELEVANTES",
+  "area": "DIRECCIÓN EJECUTIVA DE ASUNTOS JURÍDICOS",
+  "sueldo": 129028
+ },
+ {
+  "nombre": "Rafael Melendez Teran",
+  "cargo": "LÍDER/ESA DE ANÁLISIS Y GESTIÓN TÉCNICO-ADMINISTRATIVA DE ORGANIZACIÓN ELECTORAL",
+  "area": "DIRECCION EJECUTIVA DE ORGANIZACION ELECTORAL",
+  "sueldo": 129028
+ },
+ {
+  "nombre": "Fernando Jose Diaz Naranjo",
+  "cargo": "ASESOR DE CONSEJERA ELECTORAL",
+  "area": "CONSEJERO ELECTORAL",
+  "sueldo": 124977
+ },
+ {
+  "nombre": "Juan Alfredo Castañeda Vazquez",
+  "cargo": "ASESOR/A DE PRESIDENCIA DEL CONSEJO C",
+  "area": "PRESIDENCIA DEL CONSEJO",
+  "sueldo": 123879
+ },
+ {
+  "nombre": "Jarin Elyasib Goicochea Diaz",
+  "cargo": "COORDINACION TECNICA EN MATERIA DE TRANSPARENCIA",
+  "area": "UNIDAD TECNICA DE TRANSPARENCIA Y PROTECCION DE DATOS PERSONALES",
+  "sueldo": 123861
+ },
+ {
+  "nombre": "Maria del Carmen Cruz Tolentino",
+  "cargo": "COORDINADORA DE ASUNTOS JURIDICOS EN MATERIA DE FISCALIZACION",
+  "area": "UNIDAD TECNICA DE FISCALIZACION",
+  "sueldo": 123861
+ },
+ {
+  "nombre": "Alan Gustavo Abrego Parra",
+  "cargo": "COORDINACION DE GESTION TECNICA",
+  "area": "SECRETARIA EJECUTIVA",
+  "sueldo": 120263
+ },
+ {
+  "nombre": "Salvador Cotoñeto Reyes",
+  "cargo": "COORDINACIÓN DE AUDITORÍA HP",
+  "area": "SECRETARIA EJECUTIVA",
+  "sueldo": 119211
+ },
+ {
+  "nombre": "Braulio Baez Vazquez",
+  "cargo": "ASESOR DE CONSEJERO DEL PODER LEGISLATIVO \"D\"",
+  "area": "CONSEJEROS DEL PODER LEGISLATIVO Y REPRESENTANTES DE PARTIDOS POLITICOS",
+  "sueldo": 117782
+ },
+ {
+  "nombre": "Cesar Gomez Llamas",
+  "cargo": "ASESOR DE CONSEJERO DEL PODER LEGISLATIVO \"D\"",
+  "area": "CONSEJEROS DEL PODER LEGISLATIVO Y REPRESENTANTES DE PARTIDOS POLITICOS",
+  "sueldo": 117782
+ },
+ {
+  "nombre": "Elliot Baez Ramon",
+  "cargo": "ASESOR DE CONSEJERO DEL PODER LEGISLATIVO \"D\"",
+  "area": "CONSEJEROS DEL PODER LEGISLATIVO Y REPRESENTANTES DE PARTIDOS POLITICOS",
+  "sueldo": 117782
+ },
+ {
+  "nombre": "Fernando Garibay Palomino",
+  "cargo": "ASESOR DE CONSEJERO DEL PODER LEGISLATIVO \"D\"",
+  "area": "CONSEJEROS DEL PODER LEGISLATIVO Y REPRESENTANTES DE PARTIDOS POLITICOS",
+  "sueldo": 117782
+ },
+ {
+  "nombre": "Jose Alejandro Franco Carmona",
+  "cargo": "ASESOR DE CONSEJERO DEL PODER LEGISLATIVO \"D\"",
+  "area": "CONSEJEROS DEL PODER LEGISLATIVO Y REPRESENTANTES DE PARTIDOS POLITICOS",
+  "sueldo": 117782
+ },
+ {
+  "nombre": "Jose Luis Lagunes Dominguez",
+  "cargo": "ASESOR DE CONSEJERO DEL PODER LEGISLATIVO \"D\"",
+  "area": "CONSEJEROS DEL PODER LEGISLATIVO Y REPRESENTANTES DE PARTIDOS POLITICOS",
+  "sueldo": 117782
+ },
+ {
+  "nombre": "Marco Antonio Salas Sanchez",
+  "cargo": "ASESOR DE CONSEJERO DEL PODER LEGISLATIVO \"D\"",
+  "area": "CONSEJEROS DEL PODER LEGISLATIVO Y REPRESENTANTES DE PARTIDOS POLITICOS",
+  "sueldo": 117782
+ },
+ {
+  "nombre": "Mario Proa Rebolledo",
+  "cargo": "ASESOR DE CONSEJERO DEL PODER LEGISLATIVO \"D\"",
+  "area": "CONSEJEROS DEL PODER LEGISLATIVO Y REPRESENTANTES DE PARTIDOS POLITICOS",
+  "sueldo": 117782
+ },
+ {
+  "nombre": "Martin Zacarias Ramirez Ramos",
+  "cargo": "ASESOR DE CONSEJERO DEL PODER LEGISLATIVO \"D\"",
+  "area": "CONSEJEROS DEL PODER LEGISLATIVO Y REPRESENTANTES DE PARTIDOS POLITICOS",
+  "sueldo": 117782
+ },
+ {
+  "nombre": "Rodrigo Cabrera Preciado",
+  "cargo": "ASESOR DE CONSEJERO DEL PODER LEGISLATIVO \"D\"",
+  "area": "CONSEJEROS DEL PODER LEGISLATIVO Y REPRESENTANTES DE PARTIDOS POLITICOS",
+  "sueldo": 117782
+ },
+ {
+  "nombre": "Ulises Alejandro Mejia Olvera",
+  "cargo": "ASESOR DE CONSEJERO DEL PODER LEGISLATIVO \"D\"",
+  "area": "CONSEJEROS DEL PODER LEGISLATIVO Y REPRESENTANTES DE PARTIDOS POLITICOS",
+  "sueldo": 117782
+ },
+ {
+  "nombre": "Alvaro Daniel Malvaez Castro",
+  "cargo": "ASESOR DE REPRESENTANTE DE PARTIDO POLITICO \"D\"",
+  "area": "CONSEJEROS DEL PODER LEGISLATIVO Y REPRESENTANTES DE PARTIDOS POLITICOS",
+  "sueldo": 117782
+ },
+ {
+  "nombre": "Bulmaro Garcia Cabrera",
+  "cargo": "ASESOR DE REPRESENTANTE DE PARTIDO POLITICO \"D\"",
+  "area": "CONSEJEROS DEL PODER LEGISLATIVO Y REPRESENTANTES DE PARTIDOS POLITICOS",
+  "sueldo": 117782
+ },
+ {
+  "nombre": "Elias Mendez Sarmiento",
+  "cargo": "ASESOR DE REPRESENTANTE DE PARTIDO POLITICO \"D\"",
+  "area": "CONSEJEROS DEL PODER LEGISLATIVO Y REPRESENTANTES DE PARTIDOS POLITICOS",
+  "sueldo": 117782
+ },
+ {
+  "nombre": "Enrique Guzman Torres",
+  "cargo": "ASESOR DE REPRESENTANTE DE PARTIDO POLITICO \"D\"",
+  "area": "CONSEJEROS DEL PODER LEGISLATIVO Y REPRESENTANTES DE PARTIDOS POLITICOS",
+  "sueldo": 117782
+ },
+ {
+  "nombre": "Israel Rodriguez Mejia",
+  "cargo": "ASESOR DE REPRESENTANTE DE PARTIDO POLITICO \"D\"",
+  "area": "CONSEJEROS DEL PODER LEGISLATIVO Y REPRESENTANTES DE PARTIDOS POLITICOS",
+  "sueldo": 117782
+ },
+ {
+  "nombre": "Ivan Najera Guzman",
+  "cargo": "ASESOR DE REPRESENTANTE DE PARTIDO POLITICO \"D\"",
+  "area": "CONSEJEROS DEL PODER LEGISLATIVO Y REPRESENTANTES DE PARTIDOS POLITICOS",
+  "sueldo": 117782
+ },
+ {
+  "nombre": "Jorge Carlos Rubio Garcia",
+  "cargo": "ASESOR DE REPRESENTANTE DE PARTIDO POLITICO \"D\"",
+  "area": "CONSEJEROS DEL PODER LEGISLATIVO Y REPRESENTANTES DE PARTIDOS POLITICOS",
+  "sueldo": 117782
+ },
+ {
+  "nombre": "Jose Manuel Garin Capote",
+  "cargo": "ASESOR DE REPRESENTANTE DE PARTIDO POLITICO \"D\"",
+  "area": "CONSEJEROS DEL PODER LEGISLATIVO Y REPRESENTANTES DE PARTIDOS POLITICOS",
+  "sueldo": 117782
+ },
+ {
+  "nombre": "Juan Manuel Ramirez Velasco",
+  "cargo": "ASESOR DE REPRESENTANTE DE PARTIDO POLITICO \"D\"",
+  "area": "CONSEJEROS DEL PODER LEGISLATIVO Y REPRESENTANTES DE PARTIDOS POLITICOS",
+  "sueldo": 117782
+ },
+ {
+  "nombre": "Luis Oscar Cuenca Pineda",
+  "cargo": "ASESOR DE REPRESENTANTE DE PARTIDO POLITICO \"D\"",
+  "area": "CONSEJEROS DEL PODER LEGISLATIVO Y REPRESENTANTES DE PARTIDOS POLITICOS",
+  "sueldo": 117782
+ },
+ {
+  "nombre": "Marco Arturo Bonilla Lagarda",
+  "cargo": "ASESOR DE REPRESENTANTE DE PARTIDO POLITICO \"D\"",
+  "area": "CONSEJEROS DEL PODER LEGISLATIVO Y REPRESENTANTES DE PARTIDOS POLITICOS",
+  "sueldo": 117782
+ },
+ {
+  "nombre": "Octavio Olvera Mancera",
+  "cargo": "ASESOR DE REPRESENTANTE DE PARTIDO POLITICO \"D\"",
+  "area": "CONSEJEROS DEL PODER LEGISLATIVO Y REPRESENTANTES DE PARTIDOS POLITICOS",
+  "sueldo": 117782
+ },
+ {
+  "nombre": "Raul Perez Carrillo",
+  "cargo": "ASESOR DE REPRESENTANTE DE PARTIDO POLITICO \"D\"",
+  "area": "CONSEJEROS DEL PODER LEGISLATIVO Y REPRESENTANTES DE PARTIDOS POLITICOS",
+  "sueldo": 117782
+ },
+ {
+  "nombre": "Ricardo Badillo Sanchez",
+  "cargo": "ASESOR DE REPRESENTANTE DE PARTIDO POLITICO \"D\"",
+  "area": "CONSEJEROS DEL PODER LEGISLATIVO Y REPRESENTANTES DE PARTIDOS POLITICOS",
+  "sueldo": 117782
+ },
+ {
+  "nombre": "Sixto Duarte Alvarez",
+  "cargo": "ASESOR DE REPRESENTANTE DE PARTIDO POLITICO \"D\"",
+  "area": "CONSEJEROS DEL PODER LEGISLATIVO Y REPRESENTANTES DE PARTIDOS POLITICOS",
+  "sueldo": 117782
+ },
+ {
+  "nombre": "Anayeli Peña Piña",
+  "cargo": "ASESORA DE CONSEJERO DEL PODER LEGISLATIVO \"D\"",
+  "area": "CONSEJEROS DEL PODER LEGISLATIVO Y REPRESENTANTES DE PARTIDOS POLITICOS",
+  "sueldo": 117782
+ },
+ {
+  "nombre": "Gloria Cristina Ruiz Mendoza",
+  "cargo": "ASESORA DE CONSEJERO DEL PODER LEGISLATIVO \"D\"",
+  "area": "CONSEJEROS DEL PODER LEGISLATIVO Y REPRESENTANTES DE PARTIDOS POLITICOS",
+  "sueldo": 117782
+ },
+ {
+  "nombre": "Lilyana Barajas Rivas",
+  "cargo": "ASESORA DE CONSEJERO DEL PODER LEGISLATIVO \"D\"",
+  "area": "CONSEJEROS DEL PODER LEGISLATIVO Y REPRESENTANTES DE PARTIDOS POLITICOS",
+  "sueldo": 117782
+ },
+ {
+  "nombre": "Sandra Vanessa Gomez Macias",
+  "cargo": "ASESORA DE CONSEJERO DEL PODER LEGISLATIVO \"D\"",
+  "area": "CONSEJEROS DEL PODER LEGISLATIVO Y REPRESENTANTES DE PARTIDOS POLITICOS",
+  "sueldo": 117782
+ },
+ {
+  "nombre": "Abigail Rosas Sauer",
+  "cargo": "ASESORA DE REPRESENTANTE DE PARTIDO POLITICO \"D\"",
+  "area": "CONSEJEROS DEL PODER LEGISLATIVO Y REPRESENTANTES DE PARTIDOS POLITICOS",
+  "sueldo": 117782
+ },
+ {
+  "nombre": "Ada Luz Gutierrez Morales",
+  "cargo": "ASESORA DE REPRESENTANTE DE PARTIDO POLITICO \"D\"",
+  "area": "CONSEJEROS DEL PODER LEGISLATIVO Y REPRESENTANTES DE PARTIDOS POLITICOS",
+  "sueldo": 117782
+ },
+ {
+  "nombre": "Cynthia Navarrete Rubio",
+  "cargo": "ASESORA DE REPRESENTANTE DE PARTIDO POLITICO \"D\"",
+  "area": "CONSEJEROS DEL PODER LEGISLATIVO Y REPRESENTANTES DE PARTIDOS POLITICOS",
+  "sueldo": 117782
+ },
+ {
+  "nombre": "Lidia Leandro Sanchez",
+  "cargo": "ASESORA DE REPRESENTANTE DE PARTIDO POLITICO \"D\"",
+  "area": "CONSEJEROS DEL PODER LEGISLATIVO Y REPRESENTANTES DE PARTIDOS POLITICOS",
+  "sueldo": 117782
+ },
+ {
+  "nombre": "Nancy Yael Landa Guerrero",
+  "cargo": "ASESORA DE REPRESENTANTE DE PARTIDO POLITICO \"D\"",
+  "area": "CONSEJEROS DEL PODER LEGISLATIVO Y REPRESENTANTES DE PARTIDOS POLITICOS",
+  "sueldo": 117782
+ },
+ {
+  "nombre": "Nora Cristina Castillo Estrada",
+  "cargo": "ASESORA DE REPRESENTANTE DE PARTIDO POLITICO \"D\"",
+  "area": "CONSEJEROS DEL PODER LEGISLATIVO Y REPRESENTANTES DE PARTIDOS POLITICOS",
+  "sueldo": 117782
+ },
+ {
+  "nombre": "Noe Gregorio Huerta de la Torre",
+  "cargo": "ASESOR DE CONSEJERO ELECTORAL",
+  "area": "CONSEJERO ELECTORAL",
+  "sueldo": 116667
+ },
+ {
+  "nombre": "Pedro Rene Mazariego Aguilar",
+  "cargo": "SECRETARIO/SECRETARIA PARTICULAR A DE UNIDAD RESPONSABLE",
+  "area": "DIRECCIÓN EJECUTIVA DE ASUNTOS JURÍDICOS",
+  "sueldo": 116667
+ },
+ {
+  "nombre": "Angelica Viviana Rivera Lopez",
+  "cargo": "LIDER DE PROYECTO DE ANALISIS Y SEGUIMIENTO ESTRATEGICO",
+  "area": "DIRECCION EJECUTIVA DEL REGISTRO FEDERAL DE ELECTORES",
+  "sueldo": 109761
+ },
+ {
+  "nombre": "Ana Lourdes Garcia Gaspar",
+  "cargo": "LIDER DE PROYECTO DE COORDINACION OPERATIVA",
+  "area": "DIRECCION EJECUTIVA DE PRERROGATIVAS Y PARTIDOS POLITICOS",
+  "sueldo": 109761
+ },
+ {
+  "nombre": "Elisa Citlali Baltazar Guerrero",
+  "cargo": "SECRETARIA PARTICULAR DE UNIDAD RESPONSABLE",
+  "area": "DIRECCION EJECUTIVA DEL SERVICIO PROFESIONAL ELECTORAL NACIONAL",
+  "sueldo": 109761
+ },
+ {
+  "nombre": "Afif Salvador Sanchez Moran",
+  "cargo": "SECRETARIO PARTICULAR DE UNIDAD RESPONSABLE",
+  "area": "UNIDAD TECNICA DE SERVICIOS DE INFORMATICA",
+  "sueldo": 109761
+ },
+ {
+  "nombre": "David Alejandro Avalos Guadarrama",
+  "cargo": "SECRETARIO/A PARTICULAR DE UNIDAD RESPONSABLE",
+  "area": "DIRECCION DEL SECRETARIADO",
+  "sueldo": 109761
+ },
+ {
+  "nombre": "Alexis Silva Tosca",
+  "cargo": "COORDINADOR/A DE ANÁLISIS DE INFORMACIÓN Y CONTROL DOCUMENTAL",
+  "area": "DIRECCION EJECUTIVA DE ADMINISTRACION",
+  "sueldo": 109662
+ },
+ {
+  "nombre": "Jeisson Parada Tellez",
+  "cargo": "COORDINADOR/A DE ANÁLISIS DE INFORMACIÓN Y CONTROL DOCUMENTAL",
+  "area": "DIRECCION EJECUTIVA DE ADMINISTRACION",
+  "sueldo": 109662
+ },
+ {
+  "nombre": "Jorge Nuñez Herrera",
+  "cargo": "COORDINADOR/A DE ANÁLISIS DE INFORMACIÓN Y CONTROL DOCUMENTAL",
+  "area": "DIRECCION EJECUTIVA DE ADMINISTRACION",
+  "sueldo": 109662
+ },
+ {
+  "nombre": "Rosa Luz Oropeza Falcon",
+  "cargo": "COORDINADORA/A DE ANÁLISIS DE INFORMACIÓN Y CONTROL DOCUMENTAL",
+  "area": "DIRECCION EJECUTIVA DE ADMINISTRACION",
+  "sueldo": 109662
+ },
+ {
+  "nombre": "Anibal Perez Tirado",
+  "cargo": "LÍDER/ESA DE CONSULTAS EN MATERIA DE ORGANIZACIÓN ELECTORAL",
+  "area": "DIRECCION EJECUTIVA DE ORGANIZACION ELECTORAL",
+  "sueldo": 109662
+ },
+ {
+  "nombre": "Jose Antonio Gonzalez Flores",
+  "cargo": "ASESOR (A) DE LA SECRETARIO EJECUTIVA D",
+  "area": "SECRETARIA EJECUTIVA",
+  "sueldo": 107456
+ },
+ {
+  "nombre": "Armando Saldaña Palma",
+  "cargo": "ASESOR DE CONSEJERO DEL PODER LEGISLATIVO \"C\"",
+  "area": "CONSEJEROS DEL PODER LEGISLATIVO Y REPRESENTANTES DE PARTIDOS POLITICOS",
+  "sueldo": 104506
+ },
+ {
+  "nombre": "Jose Carlos Serrato Castell",
+  "cargo": "ASESOR DE CONSEJERO DEL PODER LEGISLATIVO \"C\"",
+  "area": "CONSEJEROS DEL PODER LEGISLATIVO Y REPRESENTANTES DE PARTIDOS POLITICOS",
+  "sueldo": 104506
+ },
+ {
+  "nombre": "Sergio Arrambide Cantu",
+  "cargo": "ASESOR DE CONSEJERO DEL PODER LEGISLATIVO \"C\"",
+  "area": "CONSEJEROS DEL PODER LEGISLATIVO Y REPRESENTANTES DE PARTIDOS POLITICOS",
+  "sueldo": 104506
+ },
+ {
+  "nombre": "Angel Ivan Llanos Llanos",
+  "cargo": "ASESOR DE REPRESENTANTE DE PARTIDO \"C\"",
+  "area": "CONSEJEROS DEL PODER LEGISLATIVO Y REPRESENTANTES DE PARTIDOS POLITICOS",
+  "sueldo": 104506
+ },
+ {
+  "nombre": "Carlos Alberto Navarro Sugich",
+  "cargo": "ASESOR DE REPRESENTANTE DE PARTIDO \"C\"",
+  "area": "CONSEJEROS DEL PODER LEGISLATIVO Y REPRESENTANTES DE PARTIDOS POLITICOS",
+  "sueldo": 104506
+ },
+ {
+  "nombre": "Gerardo Erick Cazares Flores",
+  "cargo": "ASESOR DE REPRESENTANTE DE PARTIDO \"C\"",
+  "area": "CONSEJEROS DEL PODER LEGISLATIVO Y REPRESENTANTES DE PARTIDOS POLITICOS",
+  "sueldo": 104506
+ },
+ {
+  "nombre": "Guillermo Elias Cardenas Gonzalez",
+  "cargo": "ASESOR DE REPRESENTANTE DE PARTIDO \"C\"",
+  "area": "CONSEJEROS DEL PODER LEGISLATIVO Y REPRESENTANTES DE PARTIDOS POLITICOS",
+  "sueldo": 104506
+ },
+ {
+  "nombre": "Javier Martin Rosas Melchor",
+  "cargo": "ASESOR DE REPRESENTANTE DE PARTIDO \"C\"",
+  "area": "CONSEJEROS DEL PODER LEGISLATIVO Y REPRESENTANTES DE PARTIDOS POLITICOS",
+  "sueldo": 104506
+ },
+ {
+  "nombre": "Jimena Lopez Garcia",
+  "cargo": "ASESORA DE CONSEJERO DEL PODER LEGISLATIVO \"C\"",
+  "area": "CONSEJEROS DEL PODER LEGISLATIVO Y REPRESENTANTES DE PARTIDOS POLITICOS",
+  "sueldo": 104506
+ },
+ {
+  "nombre": "Karen Liliana Espinoza Morales",
+  "cargo": "ASESORA DE CONSEJERO DEL PODER LEGISLATIVO \"C\"",
+  "area": "CONSEJEROS DEL PODER LEGISLATIVO Y REPRESENTANTES DE PARTIDOS POLITICOS",
+  "sueldo": 104506
+ },
+ {
+  "nombre": "Fernanda Arroyo Guerrero",
+  "cargo": "ASESORA DE REPRESENTANTE DE PARTIDO \"C\"",
+  "area": "CONSEJEROS DEL PODER LEGISLATIVO Y REPRESENTANTES DE PARTIDOS POLITICOS",
+  "sueldo": 104506
+ },
+ {
+  "nombre": "Magali Castillo Garcia",
+  "cargo": "ASESORA DE REPRESENTANTE DE PARTIDO \"C\"",
+  "area": "CONSEJEROS DEL PODER LEGISLATIVO Y REPRESENTANTES DE PARTIDOS POLITICOS",
+  "sueldo": 104506
+ },
+ {
+  "nombre": "Karen Itzel Torres Fragoso",
+  "cargo": "LÍDER/ESA DE GESTIÓN ESTRATÉGICA INTERNACIONAL",
+  "area": "COORDINACION DE ASUNTOS INTERNACIONALES",
+  "sueldo": 104506
+ },
+ {
+  "nombre": "Adriana Penelope Fernandez Carrillo",
+  "cargo": "LÍDER/ESA ESPECIALIZADO/A EN ORIENTACIÓN NORMATIVA EN SECRETARÍA EJECUTIVA",
+  "area": "SECRETARIA EJECUTIVA",
+  "sueldo": 101122
+ },
+ {
+  "nombre": "Mario Velazquez Miranda",
+  "cargo": "LÍDER/ESA ESPECIALIZADO/A EN ORIENTACIÓN NORMATIVA EN SECRETARÍA EJECUTIVA",
+  "area": "SECRETARIA EJECUTIVA",
+  "sueldo": 101122
+ }
+]
