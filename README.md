@@ -130,10 +130,34 @@ flowchart TD
 
 La sección «Quién trabaja con cada consejera y consejero» describe al personal de la oficina de cada integrante del Consejo General y de la Presidencia del Consejo, sin contar a la consejera o consejero.
 
-- **Asignación a oficina.** Se sube por la cadena de jefes inmediatos que trae cada ficha hasta llegar a una consejera o consejero, o al jefe de oficina de la Presidencia. Si la ficha no trae jefe, se usa la clave del puesto, que en el área de consejeros lleva el número de la consejería; esa clave coincide con la cadena de jefes en las 91 personas donde existen ambas. Quien no se puede ubicar por ninguna de las dos vías (25 personas) queda fuera.
+- **Asignación a oficina.** Cada persona va a una sola oficina, por la primera de tres pistas que la ubique:
+  1. **Cadena de jefes.** La ficha trae `inmediato_idEmpleado`; se sube por esa cadena hasta llegar a una consejera o consejero, al jefe de oficina de la Presidencia o a la Secretaría Ejecutiva. Ejemplo: un asesor cuya ficha dice que reporta a «consejero electoral», con el número de empleado de la consejería 2, va a esa oficina; una coordinadora de gestión que reporta a la «Jefatura de Oficina de la Presidencia del Consejo» va a Presidencia.
+  2. **Clave de puesto.** Si la ficha no trae jefe (campo vacío o basura), en el área de consejeros la clave de nivel de puesto (XC, XD o XE + número + letra) lleva el número de la consejería: la consejera con clave XC2A, un asesor operativo XD2Y y un chofer XE2C van a la consejería 2. En las 91 personas donde existen ambas pistas, coinciden siempre.
+  3. **Área.** Quien está en el área «Presidencia del Consejo» sin jefe registrado va a Presidencia, que es un área de oficina única.
+
+  Quien no se ubica por ninguna pista (25 personas) queda fuera. Resultado: la oficina de Cruz García suma 18 personas contándola (7 por cadena de jefes, 10 por clave y ella); la de la Presidencia, 33 (el jefe de oficina, 10 por cadena y 22 por área).
+
+```mermaid
+flowchart TD
+    P["Persona del área de consejeros"] --> Q1{"¿La ficha trae jefe inmediato<br/>válido?"}
+    Q1 -- "sí" --> C1["Pista 1: subir por la cadena de jefes"]
+    C1 --> T{"¿Dónde termina?"}
+    T -- "consejera o consejero" --> O1["Oficina de esa consejería"]
+    T -- "jefe de oficina<br/>de la Presidencia" --> O2["Oficina de la Presidencia"]
+    T -- "Secretaría Ejecutiva" --> X["Fuera de las oficinas"]
+    Q1 -- "no" --> Q2{"¿La clave del puesto<br/>es XC, XD o XE + número?"}
+    Q2 -- "sí" --> C2["Pista 2: el número es la consejería"]
+    C2 --> O1
+    Q2 -- "no" --> Q3{"¿El área es<br/>Presidencia del Consejo?"}
+    Q3 -- "sí" --> C3["Pista 3: área de oficina única"]
+    C3 --> O2
+    Q3 -- "no" --> N["Sin oficina: 25 personas<br/>quedan fuera"]
+```
+
 - **Qué se cuenta.** Para cada oficina: cuántas personas declararon formación y cuántas no; y, entre quienes declararon, el nivel máximo de estudios, la carrera (campo profesional de la licenciatura) y el tipo de institución de licenciatura, con las escuelas más frecuentes.
 - **Tamaño.** Son 163 personas en 11 oficinas, de 10 a 33 cada una, y 125 declararon formación. Solo en 4 oficinas declararon todas. Con tan pocos casos una persona mueve varios puntos: las barras describen a cada oficina, no prueban diferencias entre ellas.
-- **Titular de la Presidencia.** Blanca Yassahara Cruz García preside de forma provisional el Consejo General; en el directorio figura con el cargo de consejera electoral. La oficina de la Presidencia se identifica por su jefe de oficina.
+- **Por qué la Presidencia va aparte.** Cruz García preside de forma provisional el Consejo General, pero en el directorio figura con el cargo de consejera electoral, y tiene su propia oficina de 18 personas contándola. El jefe de oficina de la Presidencia del Consejo no registra jefe inmediato, así que ningún dato liga a esa oficina con la presidencia provisional. Juntarlas (17 colaboradores de Cruz García más 33 de la Presidencia) sería una decisión editorial, no un dato; por eso se muestran como dos oficinas.
+- **Treemaps por oficina.** En «Dónde estudiaron la licenciatura» hay un recuadro por oficina cuyo total es el de sus personas (sin la consejera o consejero). Cada rectángulo coloreado es una institución de licenciatura, con área proporcional a las personas. El rectángulo blanco «Sin licenciatura» son quienes declararon formación pero sin escuela de licenciatura; el negro «No declaró» son quienes no declararon formación, el mismo negro de la gráfica de cobertura.
 - **Lo que no se publica.** `consejerias.json` trae conteos por oficina, sin nombres ni sueldos.
 
 ## Qué alimenta cada sección del sitio
@@ -151,7 +175,7 @@ flowchart LR
     SP["salario_puntos.json"] --> S5
     SR["salario_nivel_rango.json"] --> S6["Sueldo por estudios y jerarquía"]
     SU["salario_universidad.json"] --> S7["Sueldo por universidad"]
-    CJ["consejerias.json"] --> S8["Quién trabaja con cada consejería"]
+    CJ["consejerias.json"] --> S8["Quién trabaja con cada consejería:<br/>cobertura, nivel, carrera y un treemap por oficina"]
 ```
 
 Los 12 JSON agregados están en [`data/`](data/) para descargarlos. Cada uno es un arreglo de filas.
