@@ -1,0 +1,121 @@
+[
+ {
+  "puesto": "CONSEJERA O CONSEJERO ELECTORAL",
+  "area": "CONSEJERO ELECTORAL",
+  "personas": 10,
+  "sueldo_bruto": 262634,
+  "diferencia": 68928
+ },
+ {
+  "puesto": "SECRETARIA EJECUTIVA",
+  "area": "SECRETARIA EJECUTIVA",
+  "personas": 1,
+  "sueldo_bruto": 246292,
+  "diferencia": 52586
+ },
+ {
+  "puesto": "TITULAR DEL ORGANO INTERNO DE CONTROL",
+  "area": "ORGANO INTERNO DE CONTROL",
+  "personas": 1,
+  "sueldo_bruto": 241796,
+  "diferencia": 48090
+ },
+ {
+  "puesto": "DIRECTOR EJECUTIVA DE CAPACITACION ELECTORAL Y EDUCACION CIVICA",
+  "area": "DIRECCION EJECUTIVA DE CAPACITACION ELECTORAL Y EDUCACION CIVICA",
+  "personas": 1,
+  "sueldo_bruto": 238480,
+  "diferencia": 44774
+ },
+ {
+  "puesto": "DIRECTOR EJECUTIVO DE PRERROGATIVAS Y PARTIDOS POLITICOS",
+  "area": "DIRECCION EJECUTIVA DE PRERROGATIVAS Y PARTIDOS POLITICOS",
+  "personas": 1,
+  "sueldo_bruto": 238480,
+  "diferencia": 44774
+ },
+ {
+  "puesto": "DIRECTOR EJECUTIVO DEL REGISTRO FEDERAL DE ELECTORES",
+  "area": "DIRECCION EJECUTIVA DEL REGISTRO FEDERAL DE ELECTORES",
+  "personas": 1,
+  "sueldo_bruto": 238480,
+  "diferencia": 44774
+ },
+ {
+  "puesto": "DIRECTOR EJECUTIVO DEL SERVICIO PROFESIONAL ELECTORAL NACIONAL",
+  "area": "DIRECCION EJECUTIVA DEL SERVICIO PROFESIONAL ELECTORAL NACIONAL",
+  "personas": 1,
+  "sueldo_bruto": 238480,
+  "diferencia": 44774
+ },
+ {
+  "puesto": "DIRECTOR GENERAL DE LA UNIDAD TECNICA DE FISCALIZACION",
+  "area": "UNIDAD TECNICA DE FISCALIZACION",
+  "personas": 1,
+  "sueldo_bruto": 238480,
+  "diferencia": 44774
+ },
+ {
+  "puesto": "DIRECTORA DE LA UNIDAD TECNICA DE LO CONTENCIOSO ELECTORAL",
+  "area": "UNIDAD TECNICA DE LO CONTENCIOSO ELECTORAL",
+  "personas": 1,
+  "sueldo_bruto": 238480,
+  "diferencia": 44774
+ },
+ {
+  "puesto": "DIRECTORA DE UNIDAD TECNICA DE VINCULACION CON LOS ORGANISMOS PUBLICOS LOCALES",
+  "area": "UNIDAD TECNICA DE VINCULACION CON LOS ORGANISMOS PUBLICOS LOCALES",
+  "personas": 1,
+  "sueldo_bruto": 238480,
+  "diferencia": 44774
+ },
+ {
+  "puesto": "DIRECTORA EJECUTIVA DE ADMINISTRACION",
+  "area": "DIRECCION EJECUTIVA DE ADMINISTRACION",
+  "personas": 1,
+  "sueldo_bruto": 238480,
+  "diferencia": 44774
+ },
+ {
+  "puesto": "DIRECTORA EJECUTIVA DE ASUNTOS JURIDICOS",
+  "area": "DIRECCIÓN EJECUTIVA DE ASUNTOS JURÍDICOS",
+  "personas": 1,
+  "sueldo_bruto": 238480,
+  "diferencia": 44774
+ },
+ {
+  "puesto": "DIRECTORA EJECUTIVA DE ORGANIZACION ELECTORAL",
+  "area": "DIRECCION EJECUTIVA DE ORGANIZACION ELECTORAL",
+  "personas": 1,
+  "sueldo_bruto": 238480,
+  "diferencia": 44774
+ },
+ {
+  "puesto": "JEFE DE OFICINA DE LA PRESIDENCIA DEL CONSEJO",
+  "area": "PRESIDENCIA DEL CONSEJO",
+  "personas": 1,
+  "sueldo_bruto": 220395,
+  "diferencia": 26689
+ },
+ {
+  "puesto": "TITULAR DE LA UNIDAD DE ASUNTOS JURIDICOS",
+  "area": "ORGANO INTERNO DE CONTROL",
+  "personas": 1,
+  "sueldo_bruto": 206713,
+  "diferencia": 13007
+ },
+ {
+  "puesto": "TITULAR DE LA UNIDAD DE AUDITORIA",
+  "area": "ORGANO INTERNO DE CONTROL",
+  "personas": 1,
+  "sueldo_bruto": 206713,
+  "diferencia": 13007
+ },
+ {
+  "puesto": "TITULAR DE LA UNIDAD DE EVALUACION, NORMATIVIDAD Y DESARROLLO ADMINISTRATIVO",
+  "area": "ORGANO INTERNO DE CONTROL",
+  "personas": 1,
+  "sueldo_bruto": 206713,
+  "diferencia": 13007
+ }
+]
