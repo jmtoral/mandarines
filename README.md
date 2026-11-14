@@ -126,6 +126,16 @@ flowchart TD
 
   - Puntos de la gráfica de sueldo por nivel de estudios: `salario_puntos.json` tiene una fila por cada **sueldo distinto** dentro de cada nivel máximo de estudios, con el número de personas que lo cobran (821 filas; 18,476 personas con sueldo legible). Cada círculo es una de esas filas y su área es proporcional a las personas. La escala horizontal es logarítmica. No lleva nombre, jerarquía ni institución, pero los valores que cobra una sola persona sí aparecen: es lo que permite ver los extremos.
 
+## Oficinas de consejeras y consejeros
+
+La sección «Quién trabaja con cada consejera y consejero» describe al personal de la oficina de cada integrante del Consejo General y de la Presidencia del Consejo, sin contar a la consejera o consejero.
+
+- **Asignación a oficina.** Se sube por la cadena de jefes inmediatos que trae cada ficha hasta llegar a una consejera o consejero, o al jefe de oficina de la Presidencia. Si la ficha no trae jefe, se usa la clave del puesto, que en el área de consejeros lleva el número de la consejería; esa clave coincide con la cadena de jefes en las 91 personas donde existen ambas. Quien no se puede ubicar por ninguna de las dos vías (25 personas) queda fuera.
+- **Qué se cuenta.** Para cada oficina: cuántas personas declararon formación y cuántas no; y, entre quienes declararon, el nivel máximo de estudios, la carrera (campo profesional de la licenciatura) y el tipo de institución de licenciatura, con las escuelas más frecuentes.
+- **Tamaño.** Son 163 personas en 11 oficinas, de 10 a 33 cada una, y 125 declararon formación. Solo en 4 oficinas declararon todas. Con tan pocos casos una persona mueve varios puntos: las barras describen a cada oficina, no prueban diferencias entre ellas.
+- **Titular de la Presidencia.** En el directorio no aparece ninguna persona con el cargo de consejera presidenta; la oficina se identifica por su jefe de oficina.
+- **Lo que no se publica.** `consejerias.json` trae conteos por oficina, sin nombres ni sueldos.
+
 ## Qué alimenta cada sección del sitio
 
 ```mermaid
@@ -141,9 +151,10 @@ flowchart LR
     SP["salario_puntos.json"] --> S5
     SR["salario_nivel_rango.json"] --> S6["Sueldo por estudios y jerarquía"]
     SU["salario_universidad.json"] --> S7["Sueldo por universidad"]
+    CJ["consejerias.json"] --> S8["Quién trabaja con cada consejería"]
 ```
 
-Los 11 JSON agregados están en [`data/`](data/) para descargarlos. Cada uno es un arreglo de filas.
+Los 12 JSON agregados están en [`data/`](data/) para descargarlos. Cada uno es un arreglo de filas.
 
 ## Hallazgos principales
 
@@ -184,7 +195,7 @@ Aquí solo hay agregados: conteos y medianas por institución, nivel, campo y je
 
 ```
 index.html      página autónoma (d3 7.9.0 desde cdnjs, datos incrustados)
-data/*.json     los 11 JSON agregados
+data/*.json     los 12 JSON agregados
 .nojekyll
 README.md       este archivo
 ```
