@@ -124,7 +124,7 @@ flowchart TD
   - Sueldo por nivel de estudios dentro de cada jerarquía: combinaciones con **al menos 10 personas**.
   - Instituciones más frecuentes: las 30 con más egresados en el análisis; el sitio muestra las 15 primeras.
 
-  - Puntos de la gráfica de sueldo por nivel de estudios: `salario_puntos.json` tiene una fila por cada **sueldo distinto** dentro de cada nivel máximo de estudios, con el número de personas que lo cobran (821 filas; 18,476 personas con sueldo legible). Cada círculo es una de esas filas y su área es proporcional a las personas. La escala horizontal es logarítmica. No lleva nombre, jerarquía ni institución, pero los valores que cobra una sola persona sí aparecen: es lo que permite ver los extremos.
+  - Puntos de la gráfica de sueldo por nivel de estudios: `salario_puntos.json` tiene una fila por cada **sueldo distinto** dentro de cada nivel máximo de estudios, con el número de personas que lo cobran (821 filas; 18,476 personas con sueldo legible). Cada círculo es una de esas filas y su área es proporcional a las personas. La escala horizontal es logarítmica. No lleva nombre, jerarquía ni institución, pero los valores que cobra una sola persona sí aparecen: es lo que permite ver los extremos. `salario_universidad_puntos.json` hace lo mismo por institución de licenciatura (las 48 con al menos 30 personas; 1,520 filas), para los puntos de «Sueldo por universidad».
 
 ## Oficinas de consejeras y consejeros
 
