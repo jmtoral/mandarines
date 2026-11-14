@@ -4,7 +4,7 @@ Análisis agregado del personal del Instituto Nacional Electoral a partir de su 
 
 Sitio: <https://jmtoral.github.io/mandarines/>
 
-Este repositorio publica **solo cifras agregadas** (conteos y medianas). No contiene nombres, fichas individuales ni tablas por persona.
+Este repositorio publica **cifras agregadas** (conteos y medianas), sin fichas individuales. Única excepción: `mas_que_presidenta.json`, con nombre, puesto y sueldo bruto de las 26 personas que ganan más que la presidenta de la República ($193,706 brutos al mes).
 
 ## Contenido
 
@@ -133,7 +133,7 @@ La sección «Quién trabaja con cada consejera y consejero» describe al person
 - **Asignación a oficina.** Se sube por la cadena de jefes inmediatos que trae cada ficha hasta llegar a una consejera o consejero, o al jefe de oficina de la Presidencia. Si la ficha no trae jefe, se usa la clave del puesto, que en el área de consejeros lleva el número de la consejería; esa clave coincide con la cadena de jefes en las 91 personas donde existen ambas. Quien no se puede ubicar por ninguna de las dos vías (25 personas) queda fuera.
 - **Qué se cuenta.** Para cada oficina: cuántas personas declararon formación y cuántas no; y, entre quienes declararon, el nivel máximo de estudios, la carrera (campo profesional de la licenciatura) y el tipo de institución de licenciatura, con las escuelas más frecuentes.
 - **Tamaño.** Son 163 personas en 11 oficinas, de 10 a 33 cada una, y 125 declararon formación. Solo en 4 oficinas declararon todas. Con tan pocos casos una persona mueve varios puntos: las barras describen a cada oficina, no prueban diferencias entre ellas.
-- **Titular de la Presidencia.** En el directorio no aparece ninguna persona con el cargo de consejera presidenta; la oficina se identifica por su jefe de oficina.
+- **Titular de la Presidencia.** Blanca Yassahara Cruz García preside de forma provisional el Consejo General; en el directorio figura con el cargo de consejera electoral. La oficina de la Presidencia se identifica por su jefe de oficina.
 - **Lo que no se publica.** `consejerias.json` trae conteos por oficina, sin nombres ni sueldos.
 
 ## Qué alimenta cada sección del sitio
